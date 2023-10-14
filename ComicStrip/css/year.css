@@ -1,3 +1,37 @@
+header {
+  margin: 0; /* Remove margin */
+  background-color: #0074d9;
+  color: white;
+  padding: 15px; /* Adjust padding as needed */
+  font-size: 20px;
+  
+}
+
+.header-content {
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.home-button {
+  text-decoration: none; /* Remove underline */
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.home-button::before {
+  content: "";
+  position: absolute;
+  top: -1.5px;
+  left: -10px;
+  width: 140%;
+  height: 130%;
+  background-color: rgba(251, 251, 251, 0.463); /* 60% opacity black background */
+  border-radius: 10px; /* Adjust as needed for roundness */
+}
+
 body {
   margin: 0;
   padding: 0;
