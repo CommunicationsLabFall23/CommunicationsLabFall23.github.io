@@ -8,6 +8,9 @@ body {
 .center-title {
     text-align: center;
 }
+.section-container {
+    margin: 50px 0; /* Add margin to create space between sections */
+  }
 
 .character-section {
     display: flex;
@@ -30,12 +33,10 @@ body {
 }
 
 .character img {
-    width: 10vw;
-    height: 10vw;
-    max-width: 100px;
-    max-height: 100px;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
-    margin: 5px;
+    margin: 40px;
 }
 
 
@@ -44,26 +45,29 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin: 20px;
+    margin: 40px;
 }
 
 .comic-square {
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 40x; /* Margin for .comic-square */
+    padding: 20px; /* Padding for .comic-square to create space */
 }
 .comic-square img {
     width: 150px;
     height: 150px;
-    display: flex;
+    
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    display: flex; /* Added for consistent rendering */
+    margin: 40px;
+    padding: 20px; /* Padding for .comic-square to create space */
 }
 
 
