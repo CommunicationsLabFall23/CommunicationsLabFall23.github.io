@@ -2,7 +2,7 @@
 
 
 [The Hosted Comic Strip:](Website url: https://communicationslabfall23.github.io/ComicStrip/)
-Please view the website on Google Chrome to experience the animations to full extent
+Please view the website on **Google Chrome** to experience the animations to full extent
 
 # Noora's Emotion Palette->A Journey Through Undergrad
 
