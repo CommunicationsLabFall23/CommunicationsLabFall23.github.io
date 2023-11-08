@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="video-page">
+        <video id="video" controls>
+          <source src="your_video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="landscape-page">
+        <div class="gif-container">
+          <img src="page2.gif" alt="GIF 1" />
+        </div>
+        <audio id="audio" controls>
+          <source src="audio1.mp3" type="audio/mp3" />
+        </audio>
+        <button id="next-page" onclick="changePage(3)">
+          Click to Flip the Page
+        </button>
+      </div>
+      <!-- Repeat the landscape-page section for pages 3 to 8 with different GIFs and audio -->
+      <div class="landscape-page">
+        <div class="gif-container">
+          <img src="page3.gif" alt="GIF 3" />
+        </div>
+        <audio id="audio" controls>
+          <source src="audio3.mp3" type="audio/mp3" />
+        </audio>
+        <button id="next-page" onclick="changePage(4)">
+          Click to Flip the Page
+        </button>
+      </div>
+      <!-- Add more landscape-pages for pages 4 to 8 -->
+      <div class="landscape-page">
+        <div class="gif-container">
+          <img src="page8.gif" alt="GIF 8" />
+        </div>
+        <audio id="audio" controls>
+          <source src="audio8.mp3" type="audio/mp3" />
+        </audio>
+        <button id="next-page" onclick="changePage(9)">
+          Click to Flip the Page
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
